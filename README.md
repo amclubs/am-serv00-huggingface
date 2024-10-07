@@ -29,6 +29,7 @@ app_port: 5700
 
 - 4、在 **settings** 下 **Variables and secrets** 点 **New secret** 增加相关变量
 **注意：环境变量是secrets类型,千万不要选错**
+
 `①` **USERNAME**变量
 ```
 admin

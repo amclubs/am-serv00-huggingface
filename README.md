@@ -55,14 +55,13 @@ drive_id = xxx
 drive_type = personal
 ```
 
-
 - 5、上传部署文件 **docker-entrypoint.sh** 、**Dockerfile** 、**npmrc** 、**package.json** 、**pnpm-lock.yaml**
-<a href="https://raw.amclubss.us.kg/qinglong/docker-entrypoint.sh">[点击下载docker-entrypoint.sh]</a>
-<a href="https://raw.amclubss.us.kg/qinglong/Dockerfile">[点击下载Dockerfile]</a>
-<a href="https://raw.amclubss.us.kg/qinglong/npmrc">[点击下载npmrc]</a>
-<a href="https://raw.amclubss.us.kg/qinglong/package.json">[点击下载package.json]</a>
-<a href="https://raw.amclubss.us.kg/qinglong/pnpm-lock.yaml">[点击下载pnpm-lock.yaml]</a>
-项目地址：https://github.com/amclubs/am-serv00-huggingface
+</br><a href="https://raw.amclubss.us.kg/qinglong/docker-entrypoint.sh">[点击下载docker-entrypoint.sh]</a>
+</br><a href="https://raw.amclubss.us.kg/qinglong/Dockerfile">[点击下载Dockerfile]</a>
+</br><a href="https://raw.amclubss.us.kg/qinglong/npmrc">[点击下载npmrc]</a>
+</br><a href="https://raw.amclubss.us.kg/qinglong/package.json">[点击下载package.json]</a>
+</br><a href="https://raw.amclubss.us.kg/qinglong/pnpm-lock.yaml">[点击下载pnpm-lock.yaml]</a>
+</br>项目地址：https://github.com/amclubs/am-serv00-huggingface
 
 - 6、部署完成后，点击 **settings** 下 **Embed this Space** 找到 **Direct URL** 就是访问地址,如下面
 ```
@@ -101,8 +100,11 @@ rclone sync /ql/data huggingface:/qinglong
 0 0 1 * * *
 ```
 
-- 3、增加cloudflare部署uptime监控服务检查huggingface应用
-[**点击视频教程**](https://youtu.be/X03S2HxnniM)
+- 3、增加cloudflare部署uptime监控服务检查huggingface应用 [**点击视频教程**](https://youtu.be/X03S2HxnniM)
+
+</br>[**点击观看免费部署socks5视频教程**](https://youtu.be/Bw82BH_ecC4)
+</br>[**点击观看免费部署vmess节点视频教程**](https://youtu.be/6UZXHfc3zEU)
+</br>[**点击观看所有免费节点部署相关视频教程**](https://www.youtube.com/playlist?list=PLGVQi7TjHKXbrY0Pk8gm3T7m8MZ-InquF)
 
 
  # 

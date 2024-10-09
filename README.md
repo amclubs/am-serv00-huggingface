@@ -1,6 +1,8 @@
 # [am-serv00-huggingface](https://github.com/amclubs/am-serv00-huggingface)
 通过huggingface部署青龙面板,实现serv00、socks5、vmess节点等在serv00里部署的程序保活
 
+ - [点击观看视频教程 ](https://youtu.be/J4lcIwBowmM)
+
 ## 一、需要准备的前提资料
 ### 1、注册**Serv00**账号，建议使用**Gmail**邮箱
 - 注册地址：https://serv00.com

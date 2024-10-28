@@ -17,7 +17,7 @@ purple "=== 转载请著名出处 AM科技，请勿滥用 ===\n"
 
 base_url="https://raw.githubusercontent.com/amclubs"
 
-# 配置服务器，格式为：["IP/域名,用户名,密码"]="s5(socket5标识符),端口1;vmess(服务标识符),端口2,Argo隧道域名,Argo隧道token或json"
+# 配置服务器，格式为：["IP/域名,用户名,密码"]="s5(socket5标识符),端口1;vmess(服务标识符),端口2,Argo隧道域名,Argo隧道token或json;nezha-dashboard(服务标识符),端口3"
 declare -A servers=(
 	["s8.serv00.com,username1,password1"]="s5,10000"
 	["s8.serv00.com,username2,password2"]="s5,20000"
@@ -32,7 +32,7 @@ get_script_url() {
     case $1 in
         s5) echo "${base_url}/am-serv00-socks5/main/am_restart_s5.sh" ;;
         vmess) echo "${base_url}/am-serv00-vmess/main/am_restart_vmess.sh" ;;
-        #nezha-dashboard) echo "${base_url}/am-serv00-nezha/main/am_restart_dashboard.sh" ;;
+        nezha-dashboard) echo "${base_url}/am-serv00-nezha/main/am_restart_dashboard.sh" ;;
         #nezha-agent) echo "${base_url}/am-serv00-nezha/main/am_restart_agent.sh" ;;		
         *) echo "${base_url}/am-serv00-socks5/main/am_restart_s5.sh" ;;
     esac

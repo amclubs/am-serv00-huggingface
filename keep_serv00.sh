@@ -33,7 +33,7 @@ get_script_url() {
         s5) echo "${base_url}/am-serv00-socks5/main/am_restart_s5.sh" ;;
         vmess) echo "${base_url}/am-serv00-vmess/main/am_restart_vmess.sh" ;;
         nezha-dashboard) echo "${base_url}/am-serv00-nezha/main/am_restart_dashboard.sh" ;;
-        #nezha-agent) echo "${base_url}/am-serv00-nezha/main/am_restart_agent.sh" ;;	
+        nezha-agent) echo "${base_url}/am-serv00-nezha/main/am_restart_agent.sh" ;;	
 	x-ui) echo "${base_url}/am-serv00-x-ui/main/am_restart_x_ui.sh" ;;
         *) echo "${base_url}/am-serv00-socks5/main/am_restart_s5.sh" ;;
     esac
